@@ -1,15 +1,15 @@
-name: Denon AVR Remote Card
-description: Denon AVR Remote Card for Home Assistant Lovelace UI
+name: Vizio TV Remote Card
+description: Vizio TV Remote Card for Home Assistant Lovelace UI
 type: lovelace
 keywords:
-  - receiver
+  - tv
   - remote
   - media
-  - denon
-  - avr
+  - vizio
+  - screen
 author:
   name: jdmar3
 license: GNU General Public License v3.0 or later
 files:
-  - tv-card.js
-  - tv-card-editor.js
+  - vizio-card.js
+  - vizio-card-editor.js
