@@ -21,7 +21,7 @@ const LitElement = Object.getPrototypeOf(
 );
 const html = LitElement.prototype.html;
 
-export class DenonCardEditor extends LitElement {
+export class VizioCardEditor extends LitElement {
   setConfig(config) {
     this._config = config;
   }
@@ -187,4 +187,4 @@ export class DenonCardEditor extends LitElement {
   }
 }
 
-customElements.define("tv-card-editor", TVCardEditor);
+customElements.define("vizio-card-editor", VizioCardEditor);
