@@ -1,4 +1,4 @@
-# Denon AVR Remote Card
+# Vizio TV Remote Card
 
 [![GitHub Release][releases-shield]][releases]
 [![License][license-shield]](LICENSE.md)
@@ -65,7 +65,7 @@ Install using HACS or [see this guide](https://github.com/thomasloven/hass-confi
 Add a custom element in your `ui-lovelace.yaml`
 
 ```yaml
-      - type: custom:denon-card
+      - type: custom:vizio-card
         entity: sun.sun
         name: Living Room Receiver
         tv: true
@@ -94,15 +94,15 @@ entities:
           '--ha-card-border-radius': 0px
         title: 
         card:
-          type: 'custom:denon-card'
+          type: 'custom:vizio-card'
           entity: sun.sun
 ```
 
 
 [commits-shield]: https://img.shields.io/github/commit-activity/y/marrobHD/tv-card.svg?style=for-the-badge
-[commits]: https://github.com/jdmar3/denon-card/commits/master
+[commits]: https://github.com/jdmar3/vizio-card/commits/master
 [forum]: https://community.home-assistant.io/
-[license-shield]: https://img.shields.io/github/license/jdmar3/denon-card.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/jdmar3/vizio-card.svg?style=for-the-badge
 [maintenance-shield]: https://img.shields.io/badge/maintainer-jdmar3-blue.svg?style=for-the-badge
 [releases-shield]: https://img.shields.io/github/release/marrobHD/tv-card.svg?style=for-the-badge
 [releases]: https://github.com/jdmar3/tv-card/releases
