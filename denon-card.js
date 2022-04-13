@@ -4,7 +4,7 @@ const LitElement = Object.getPrototypeOf(
 
 const html = LitElement.prototype.html;
 
-class DenonCardServices extends LitElement {
+class VizioCardServices extends LitElement {
   static get properties() {
     return {
       hass: {},
@@ -14,8 +14,8 @@ class DenonCardServices extends LitElement {
   }
 
   //  static async getConfigElement() {
-  //    await import("./denon-card-editor.js");
-  //    return document.createElement("denon-card-editor");
+  //    await import("./vizio-card-editor.js");
+  //    return document.createElement("vizio-card-editor");
   //  }
 
   static getStubConfig() {
@@ -791,4 +791,4 @@ class DenonCardServices extends LitElement {
   }
 }
 
-customElements.define("denon-card", DenonCardServices);
+customElements.define("vizio-card", VizioCardServices);
