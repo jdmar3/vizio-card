@@ -1,0 +1,15 @@
+name: Denon AVR Remote Card
+description: Denon AVR Remote Card for Home Assistant Lovelace UI
+type: lovelace
+keywords:
+  - receiver
+  - remote
+  - media
+  - denon
+  - avr
+author:
+  name: jdmar3
+license: GNU General Public License v3.0 or later
+files:
+  - tv-card.js
+  - tv-card-editor.js
